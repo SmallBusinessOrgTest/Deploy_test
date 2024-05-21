@@ -21,8 +21,6 @@ after_failure:
   - echo $TRAVIS_TEST_RESULT
     
 deploy:
-  github_url: https://ghe.travis-ci-enterprise.com/
-  repo: GHE-organization/Deploy_test
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
